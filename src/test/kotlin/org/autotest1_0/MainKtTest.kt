@@ -19,7 +19,7 @@ class MainKtTest {
             inputCard = card
         )
 
-        assertEquals("Комиссия составляет 11250 копеек", result)
+        assertEquals("РљРѕРјРёСЃСЃРёСЏ СЃРѕСЃС‚Р°РІР»СЏРµС‚ 11250 РєРѕРїРµРµРє", result)
     }
 
     @Test
@@ -30,7 +30,7 @@ class MainKtTest {
             inputNewTransfer = newTransfer
         )
 
-        assertEquals("Сумму разового перевода превышает 15000 рублей. Операция отклонена!", result)
+        assertEquals("РЎСѓРјРјСѓ СЂР°Р·РѕРІРѕРіРѕ РїРµСЂРµРІРѕРґР° РїСЂРµРІС‹С€Р°РµС‚ 15000 СЂСѓР±Р»РµР№. РћРїРµСЂР°С†РёСЏ РѕС‚РєР»РѕРЅРµРЅР°!", result)
     }
 
     @Test
@@ -46,7 +46,7 @@ class MainKtTest {
             inputCard = card
         )
 
-        assertEquals("Общий размер суммы перевода за месяц превышает 600 000 рублей.", result)
+        assertEquals("РћР±С‰РёР№ СЂР°Р·РјРµСЂ СЃСѓРјРјС‹ РїРµСЂРµРІРѕРґР° Р·Р° РјРµСЃСЏС† РїСЂРµРІС‹С€Р°РµС‚ 600 000 СЂСѓР±Р»РµР№.", result)
     }
 
     @Test
@@ -57,7 +57,7 @@ class MainKtTest {
             inputNewTransfer = newTransfer
         )
 
-        assertEquals("Комиссия составляет 0 копеек. ", result)
+        assertEquals("РљРѕРјРёСЃСЃРёСЏ СЃРѕСЃС‚Р°РІР»СЏРµС‚ 0 РєРѕРїРµРµРє. ", result)
     }
 
     @Test
@@ -102,7 +102,7 @@ class MainKtTest {
             inputOldTransfer = oldTransfer
         )
 
-        assertEquals("Комиссия составляет 0 копеек. ", result)
+        assertEquals("РљРѕРјРёСЃСЃРёСЏ СЃРѕСЃС‚Р°РІР»СЏРµС‚ 0 РєРѕРїРµРµРє. ", result)
 
     }
 
@@ -119,7 +119,7 @@ class MainKtTest {
             inputCard = card
         )
 
-        assertEquals("Комиссия составляет 3500 копеек", result)
+        assertEquals("РљРѕРјРёСЃСЃРёСЏ СЃРѕСЃС‚Р°РІР»СЏРµС‚ 3500 РєРѕРїРµРµРє", result)
     }
     @Test
     fun commission8() {
@@ -132,6 +132,6 @@ class MainKtTest {
             inputCard = card
         )
 
-        assertEquals("Комиссия составляет 3500 копеек", result)
+        assertEquals("РљРѕРјРёСЃСЃРёСЏ СЃРѕСЃС‚Р°РІР»СЏРµС‚ 3500 РєРѕРїРµРµРє", result)
     }
 }
