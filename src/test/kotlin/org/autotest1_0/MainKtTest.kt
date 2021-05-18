@@ -132,6 +132,6 @@ class MainKtTest {
             inputCard = card
         )
 
-        assertEquals("Комиссия составляет 3500 копеек", result)
+        assertEquals("Комиссия составляет 3520 копеек", result)
     }
 }
